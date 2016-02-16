@@ -1,4 +1,4 @@
-class Fix < Formula
+class Forge < Formula
   desc "Forge (Command line tool for creating F# Projects)"
   homepage "http://fsprojects.github.io/Forge"
   url "https://github.com/fsprojects/Forge/releases/download/0.6.0/forge.zip"
