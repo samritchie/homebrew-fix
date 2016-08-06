@@ -8,9 +8,9 @@ class Forge < Formula
   bottle :unneeded
 
   devel do
-    url "https://github.com/fsprojects/Forge/releases/download/1.0.0-alpha007/forge.zip"
-    version "1.0.0-alpha007"
-    sha256 "38b35ffe9cc52d5fd88fd572b7a85a34590005d814b918479ce1738e3c05cb2d"
+    url "https://github.com/fsprojects/Forge/releases/download/1.0.0-alpha012/forge.zip"
+    version "1.0.0-alpha012"
+    sha256 "54fbd49e63e9aa92048a3cbb4bfd6eaeaae214549f47968dfa655eb74d081e46"
   end
 
   def install
