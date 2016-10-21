@@ -11,7 +11,7 @@ class Forge < Formula
     libexec.install Dir["bin/*"]
     (bin/"forge").write <<-EOS.undent
       #!/bin/sh
-      mono #{libexec}/forge.exe "$@"
+      mono #{libexec}/Forge.exe "$@"
     EOS
   end
 end
