@@ -1,8 +1,8 @@
 class Forge < Formula
   desc "Forge (Command line tool for creating F# Projects)"
   homepage "https://forge.run"
-  url "https://github.com/fsharp-editing/Forge/releases/download/1.3.3/forge.zip"
-  sha256 "0988db5d1079591dd653226edd11ea95227ddc828367fe38f1b8a766e1ebe70b"
+  url "https://github.com/fsharp-editing/Forge/releases/download/1.4.2/forge.zip"
+  sha256 "b977a69a55883a45342e65f940446fadc04895b78b2b92c4aabe3612a89af063"
   depends_on "mono"
 
   bottle :unneeded
