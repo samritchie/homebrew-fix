@@ -1,14 +1,14 @@
 class Forge < Formula
   desc "Forge (Command line tool for creating F# Projects)"
   homepage "https://forge.run"
-  url "https://github.com/fsharp-editing/Forge/releases/download/1.4.2/forge.zip"
-  sha256 "b977a69a55883a45342e65f940446fadc04895b78b2b92c4aabe3612a89af063"
+  url "https://github.com/fsharp-editing/Forge/releases/download/2.0.0/forge.zip"
+  sha256 "fed744218ed5c732f12b2c8d4d63752117949c2c7fae31bb999037e5c8f06a52"
   depends_on "mono"
 
   bottle :unneeded
 
   def install
-    libexec.install Dir["bin/*"]
+    libexec.install Dir["./*"]
     (bin/"forge").write <<-EOS.undent
       #!/bin/sh
       mono #{libexec}/Forge.exe "$@"
